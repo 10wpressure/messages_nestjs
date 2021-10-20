@@ -1,0 +1,15 @@
+### List all messages
+GET {{host}}:{{port}}/messages
+Accept: application/json
+
+### Create a new message
+POST {{host}}:{{port}}//messages
+Content-type: application/json
+
+{
+  "content": "message after adding DI"
+}
+
+### Get a particular message
+GET {{host}}:{{port}}//messages/906
+Accept: application/json
